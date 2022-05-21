@@ -1,0 +1,48 @@
+.primary-navbar {
+  .nav-container {
+    padding: 24px;
+    max-width: 1128px;
+    margin: auto;
+
+    .logo img {
+      width: 135px;
+      height: 35px;
+    }
+
+    .divider {
+      width: 1px;
+      height: 32px;
+      background-color: grey;
+      opacity: .5;
+      margin-right: 8px !important;
+    }
+
+
+    .menu-item {
+      color: black;
+
+      p {
+        margin: 0 !important;
+      }
+
+      opacity: .6;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+  }
+}
+
+.sign-in-custom {
+  border: 1px solid #0a66c2;
+  border-radius: 24px;
+  font-weight: bold;
+
+  &:hover {
+    border: 2px solid #0a66c2;
+  }
+
+}
