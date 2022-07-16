@@ -6,6 +6,7 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { MatButtonModule } from "@angular/material/button";
+import { MatInputModule } from "@angular/material/input";
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { MatButtonModule } from "@angular/material/button";
     CommonModule,
     AppLandingRoutingModule,
     FlexLayoutModule,
-    MatButtonModule
+    MatButtonModule,
+    MatInputModule
   ]
 })
 export class AppLandingModule { }

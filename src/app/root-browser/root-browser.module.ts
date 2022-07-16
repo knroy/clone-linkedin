@@ -5,6 +5,7 @@ import { RootDefaultComponent } from './components/root-default/root-default.com
 
 import { BrowserModule } from "@angular/platform-browser";
 import { MatButtonModule } from "@angular/material/button";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { MatButtonModule } from "@angular/material/button";
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     RootBrowserRoutingModule,
     MatButtonModule
   ],
